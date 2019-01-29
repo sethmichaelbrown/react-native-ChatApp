@@ -10,12 +10,13 @@ class Chat extends React.Component{
     return (
       <View>
         <Text>
-          Hello Chat
+          Hello {this.props.name}
         </Text>
       </View>
     )
 
   }
 }
+
 
 export default Chat;
